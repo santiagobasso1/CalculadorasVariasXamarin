@@ -1,4 +1,4 @@
-# 👋 Proyecto Personal Aprendiendo Xamain ✖️
+# 👋 Proyecto Personal Aprendiendo Xamain ❎
 _Se trata de una aplicación movil que cuenta con varias calculadoras distintas para diferentes necesidades del usuario_
 
 ### Pre Requirements 📋
