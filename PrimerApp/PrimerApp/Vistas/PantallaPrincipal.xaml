@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimerApp.Vistas.PantallaPrincipal"
+             BackgroundImageSource="https://static.vecteezy.com/system/resources/previews/001/309/758/non_2x/calculator-on-table-free-photo.jpg">
+    <StackLayout>
+        <Label FontAttributes="Bold"
+               TextColor="Black"
+               Margin="0,5,0,0"
+               FontSize="Title"
+               HorizontalOptions="Center"
+               Text="Bienvenido a su calculadora" />
+        <Frame VerticalOptions="FillAndExpand"
+               CornerRadius="30"
+               Margin="15">
+            <StackLayout Margin="30">
+                <Image Source="https://img.freepik.com/vector-gratis/calculadora-rosa-sobre-fondo-blanco_1308-74126.jpg?w=2000" />
+                <Label HorizontalOptions="Center"
+                       Text="Seleccione la operación que desea realizar:" />
+                <Button CornerRadius="20"
+                        Text="Calculadora Simple"
+                        x:Name="BtnCalculadoraSimple"
+                        Clicked="BtnCalculadoraSimple_click"/>
+                <Button CornerRadius="20"
+                        Text="Calculadora de distancia entre 2 puntos" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
